@@ -34,7 +34,7 @@ export const PropertyTile = ({ listingItem }: PropertyTileProps) => {
       {/* Set gap between all elements and arrange them in a row inside the Tile. */}
       <Flex gap="m">
         <Image
-          src="https://images.pexels.com/photos/1115804/pexels-photo-1115804.jpeg"
+          src="https://amg-fechoz.com/content/uploads/2022/01/Monte-decors_600x300.png"
           width={150}
           height={180}
         />
