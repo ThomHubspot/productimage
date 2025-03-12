@@ -33,7 +33,7 @@ export const PropertyTile = ({ listingItem }: PropertyTileProps) => {
     <Tile>
       {/* Set gap between all elements and arrange them in a row inside the Tile. */}
       <Flex gap="m">
-                <Text format={{ fontWeight: 'bold' }}>Image 1</Text>
+                <Text format={{ fontWeight: 'bold' }}>Image 1</Text><br></br>
 
         <Image
           src="https://amg-fechoz.com/content/uploads/2022/01/Monte-decors_600x300.png"
