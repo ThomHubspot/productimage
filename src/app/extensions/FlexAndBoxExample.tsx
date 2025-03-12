@@ -49,13 +49,6 @@ const FlexAndBoxExample = () => {
             <PropertyTile key={index} listingItem={listing} />
           ))}
         </Flex>
-        <Button
-          variant="primary"
-          onClick={restoreDefaultListing}
-          disabled={listingItems.length === listingItemsSamples.length}
-        >
-          Restore example listings
-        </Button>
         <Divider distance="xl" />
       </Flex>
     </Flex>
