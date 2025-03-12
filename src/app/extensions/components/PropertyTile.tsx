@@ -32,7 +32,7 @@ export const PropertyTile = ({ listingItem }: PropertyTileProps) => {
   return (
     <Tile>
       {/* Set gap between all elements and arrange them in a row inside the Tile. */}
-      <Flex gap="xs">
+      <Flex gap="m">
         <Image
           src="https://images.pexels.com/photos/1115804/pexels-photo-1115804.jpeg"
           width={150}
@@ -43,9 +43,7 @@ export const PropertyTile = ({ listingItem }: PropertyTileProps) => {
           <Flex direction="column" gap="xs">
             <Box>
               <Flex justify="between">
-                <Text format={{ fontWeight: 'bold' }}>
-                  ${listingItem.rentalPrice}
-                </Text>
+               
                 <Tag variant={listingItem.status}>
                   {findLabelByValue(
                     listingItemStatusSelectOptions,
