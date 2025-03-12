@@ -27,7 +27,6 @@ const FlexAndBoxExample = () => {
     <Flex direction="column" gap="xl">
       
       <Flex direction="column" gap="md" align="start">
-        <Text format={{ fontWeight: 'bold' }}>Property listings</Text>
         {/* Set behavior for all tiles to wrap when filled in a row. */}
         <Flex gap="sm" wrap="wrap">
           {listingItems.map((listing, index) => (
