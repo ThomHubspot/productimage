@@ -25,22 +25,7 @@ const FlexAndBoxExample = () => {
   return (
     // Set the arrangement of all elements on the page in the form of a column.
     <Flex direction="column" gap="xl">
-      <Text>
-        This example shows UX best practices for{' '}
-        <Link href="https://developers.hubspot.com/docs/platform/ui-extension-components#layout-flex">
-          Flex
-        </Link>{' '}
-        and{' '}
-        <Link href="https://developers.hubspot.com/docs/platform/ui-extension-components#layout-box">
-          Box
-        </Link>
-        , as well as how to use multiple components with them. Property listings
-        are presented in a tile format. Use the form below to add more tiles.{' '}
-        <Link href="https://developers.hubspot.com/docs/platform/manage-ui-extension-layout">
-          Learn more about layout management
-        </Link>
-        .
-      </Text>
+      
       <Flex direction="column" gap="md" align="start">
         <Text format={{ fontWeight: 'bold' }}>Property listings</Text>
         {/* Set behavior for all tiles to wrap when filled in a row. */}
