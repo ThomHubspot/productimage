@@ -37,8 +37,8 @@ export const PropertyTile = ({ listingItem }: PropertyTileProps) => {
 
         <Image
           src="https://amg-fechoz.com/content/uploads/2022/01/Monte-decors_600x300.png"
-          width={300}
-          height={180}
+          width={600}
+          height={300}
         />
         
       </Flex>
