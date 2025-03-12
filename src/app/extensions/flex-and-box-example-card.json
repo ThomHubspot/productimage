@@ -1,7 +1,7 @@
 {
   "type": "crm-card",
   "data": {
-    "title": "Flex and box example card",
+    "title": "Images",
     "uid": "flex_and_box_example_card",
     "location": "crm.record.tab",
     "module": {
