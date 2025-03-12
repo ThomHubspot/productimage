@@ -7,6 +7,6 @@
     "module": {
       "file": "FlexPlayground.tsx"
     },
-    "objectTypes": [{ "name": "p_Equipements" }]
+    "objectTypes": [{ "name": "p_Equipement" }]
   }
 }
