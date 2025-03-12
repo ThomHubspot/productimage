@@ -2,7 +2,7 @@
   "name": "Product Image.",
   "description": "",
   "uid": "flex_and_box",
-  "scopes": ["crm.objects.equipements.read", "crm.objects.equipements.write"],
+  "scopes": ["crm.objects.custom.read", "crm.objects.custom.write"],
   "public": false,
   "extensions": {
     "crm": {
