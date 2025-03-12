@@ -7,6 +7,6 @@
     "module": {
       "file": "FlexAndBoxExample.tsx"
     },
-    "objectTypes": [{ "name": "deals" }]
+    "objectTypes": [{ "name": "p_Equipements" }]
   }
 }
