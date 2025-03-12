@@ -1,5 +1,5 @@
 {
-  "name": "Flex playground.",
+  "name": "Product Image.",
   "description": "",
   "uid": "flex_and_box",
   "scopes": ["crm.objects.equipements.read", "crm.objects.equipements.write"],
