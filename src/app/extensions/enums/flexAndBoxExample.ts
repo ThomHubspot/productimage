@@ -55,13 +55,6 @@ export const listingItemsSamples: ListingItem[] = [
     creationDate: ListingItemDefaultCreationDate,
     status: ListingItemStatus.Occupied,
   },
-  {
-    address: '27 Rossmore St, Somerville, MA',
-    propertyType: PropertyType.BedroomX2,
-    rentalPrice: 1700,
-    creationDate: ListingItemDefaultCreationDate,
-    status: ListingItemStatus.Available,
-  },
   
 ];
 
