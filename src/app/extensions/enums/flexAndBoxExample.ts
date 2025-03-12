@@ -62,27 +62,7 @@ export const listingItemsSamples: ListingItem[] = [
     creationDate: ListingItemDefaultCreationDate,
     status: ListingItemStatus.Available,
   },
-  {
-    address: '789 Pine St',
-    propertyType: PropertyType.BedroomX2,
-    rentalPrice: 3250,
-    creationDate: ListingItemDefaultCreationDate,
-    status: ListingItemStatus.Undefined,
-  },
-  {
-    address: '101 Elm St',
-    propertyType: PropertyType.Studio,
-    rentalPrice: 2450,
-    creationDate: ListingItemDefaultCreationDate,
-    status: ListingItemStatus.InProgress,
-  },
-  {
-    address: '202 Maple St',
-    propertyType: PropertyType.BedroomX2,
-    rentalPrice: 3400,
-    creationDate: ListingItemDefaultCreationDate,
-    status: ListingItemStatus.Available,
-  },
+  
 ];
 
 export const listingItemDefaultFields: ListingItem = {
